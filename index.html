@@ -12,9 +12,9 @@
     <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg">
     <h1 id="trybewarts-header-title">Trybewarts</h1>
     <form class="trybewarts-login">
-        <input name="email" placeholder="Email">
-        <input name="password" placeholder="Senha">
-        <button>Entrar</button>
+        <input name="email" placeholder="Email" id="email">
+        <input name="password" placeholder="Senha" id="senha">
+        <button id="botao">Entrar</button>
     </form>
 </header>
 <main>
@@ -34,12 +34,8 @@
         </Select>
       </div>
       
-      <div>
-        <h4 id="label-family">
-          Qual a sua família?
-        </h4>
-      </div>
       <div id="family">
+        <h4 id="label-family">Qual a sua família?</h4>
         <input type="radio" name="family" value="Frontend" />Família Frontend
         <input type="radio" name="family" value="Backend" />Família Backend
         <input type="radio" name="family" value="FullStack" />Família FullStack
@@ -79,7 +75,7 @@
           Você concorda com o uso das informações acima?
         </label>
         <input type="checkbox" value="S" id="agreement">Sim
-        <button type="submit" id="submit-btn">Enviar</button>
+        <button type="submit" id="submit-btn" disabled>Enviar</button>
       </div>
     </form>
   </article>
