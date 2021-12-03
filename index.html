@@ -13,7 +13,7 @@
     <h1 id="trybewarts-header-title">Trybewarts</h1>
     <form class="trybewarts-login">
         <input name="email" placeholder="Email" id="email">
-        <input name="password" placeholder="Senha" id="senha">
+        <input name="password" type="password" placeholder="Senha" id="senha">
         <button id="botao">Entrar</button>
     </form>
 </header>
@@ -34,14 +34,24 @@
         </Select>
       </div>
       
+    <section id="organiza">
       <div id="family">
-        <h4 id="label-family">Qual a sua família?</h4>
-        <input type="radio" name="family" value="Frontend" />Família Frontend
-        <input type="radio" name="family" value="Backend" />Família Backend
-        <input type="radio" name="family" value="FullStack" />Família FullStack
+        <h4 id="label-family">Qual sua família?</h4>
+          <label>
+            <input type="radio" name="family" value="Frontend"/>
+            Família Frontend
+          </label>
+          <label>
+            <input type="radio" name="family" value="Backend"/>
+            Família Backend
+          </label>
+          <label>
+            <input type="radio" name="family" value="FullStack"/>
+            Família FullStack
+          </label>
       </div>
-
-      <div>
+        
+      <div id="aprender">
         <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
         <input type="checkbox" value="HoFs" />HoFs
         <input type="checkbox" value="Jest" />Jest
@@ -50,6 +60,7 @@
         <input type="checkbox" value="SQL" />SQL
         <input type="checkbox" value="Python" />Python
       </div>
+    </section>
 
       <div>
         <label id="label-rate">Como você avalia a Trybewarts?</label>
@@ -64,9 +75,10 @@
         <input type="radio" name="rate" value="9" />9
         <input type="radio" name="rate" value="10" />10
       </div>  
-
+      <br>
       <div>
         <label class="textarea" for="textarea">Deixe seu comentário:</label>
+        <br>
         <textarea name="textarea" id="textarea" rows="10" cols="50" maxlength="500"></textarea>
       </div>
 

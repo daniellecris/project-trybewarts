@@ -52,23 +52,20 @@ h2 {
   width: 300px;
 }
 
-#conteudo {
+#organiza {
   display: flex;
-  flex-direction: column;
-  width: 370px;
 }
 
 #family {
   display: flex;
   flex-direction: column;
-  width: 300px;
 }
 
-/* #input-name #input-lastname #input-email {
+#aprender {
   display: flex;
-  width: 25px;
-  height: 25px;
-} */
+  flex-wrap: wrap;
+  width: 30%;
+}
 
 aside {
   display: flex;
