@@ -52,11 +52,11 @@ h2 {
   width: 300px;
 }
 
-/* #conteudo {
+#conteudo {
   display: flex;
   flex-direction: column;
   width: 370px;
-} */
+}
 
 #family {
   display: flex;

@@ -11,3 +11,13 @@ function verificarDados() {
 
 const confirmar = document.getElementById('botao');
 confirmar.addEventListener('click', verificarDados);
+
+const informacao = document.querySelector('#agreement');
+const botaoEnviar = document.querySelector('#submit-btn');
+
+function habilitaBotao(event) {
+  const botaoSubmete = event.target.checked;
+  botaoEnviar.disabled = !botaoSubmete;
+}
+
+informacao.addEventListener('click', habilitaBotao);
