@@ -11,3 +11,5 @@ function verificarDados() {
 
 const confirmar = document.getElementById('botao');
 confirmar.addEventListener('click', verificarDados);
+
+

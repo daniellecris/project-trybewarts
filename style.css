@@ -52,16 +52,16 @@ h2 {
   width: 300px;
 }
 
+/* #conteudo {
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+} */
+
 #family {
   display: flex;
   flex-direction: column;
   width: 300px;
-}
-
-#conteudo {
-  display: flex;
-  flex-direction: column;
-  width: 370px;
 }
 
 /* #input-name #input-lastname #input-email {
