@@ -21,3 +21,16 @@ function habilitaBotao(event) {
 }
 
 informacao.addEventListener('click', habilitaBotao);
+
+//consultei o link https://pt.stackoverflow.com/questions/113089/contador-de-caracteres-digitados-em-um-textarea
+const textoArea = document.querySelector('#textarea');
+const informaCounter = document.querySelector('#counter');
+const limite = 500;
+
+function counterTextoArea() {
+  const caracteres = this.value.length;
+  const restaArea = limite - caracteres;
+  informaCounter.innerHTML = restaArea;
+}
+
+textoArea.addEventListener('keyup', counterTextoArea);
