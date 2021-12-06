@@ -22,7 +22,7 @@ function habilitaBotao(event) {
 
 informacao.addEventListener('click', habilitaBotao);
 
-//consultei o link https://pt.stackoverflow.com/questions/113089/contador-de-caracteres-digitados-em-um-textarea
+/* consultei o link https://pt.stackoverflow.com/questions/113089/contador-de-caracteres-digitados-em-um-textarea */
 const textoArea = document.querySelector('#textarea');
 const informaCounter = document.querySelector('#counter');
 const limite = 500;
