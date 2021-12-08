@@ -52,7 +52,7 @@ h2 {
   width: 300px;
 }
 
-#organiza {
+#options {
   display: flex;
 }
 
@@ -61,7 +61,7 @@ h2 {
   flex-direction: column;
 }
 
-#aprender {
+#materias {
   display: flex;
   flex-wrap: wrap;
   width: 30%;
@@ -76,4 +76,3 @@ aside {
 #trybewarts-forms-logo {
   height: 500px;
 }
-
